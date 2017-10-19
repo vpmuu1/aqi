@@ -1,0 +1,1 @@
+INSERT INTO aqi (id,cityname,JCZD_MC,AQI,PM25,PM,SO2,NO2,O31,O38,dt,CO,SJLY,myaqi,firstp) VALUES ('A0125020137211946568971765','乌鲁木齐','米东区环保局',-1,-1,-1,-1,-1,-1,-1,'2013-07-21 19:00:00',-1,'中国环境监测总站',-1,'PM25')

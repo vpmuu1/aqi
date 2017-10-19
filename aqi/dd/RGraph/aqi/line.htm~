@@ -1,0 +1,33 @@
+<html>
+<head>
+    <script src="../libraries/RGraph.common.core.js" ></script>
+    <script src="../libraries/RGraph.line.js" ></script>
+    <script src="../libraries/RGraph.bar.js" ></script>
+    
+    <title>A basic Line chart</title>
+    
+    <meta name="description" content="A basic Line chart" />
+
+</head>
+<body>
+
+    <h1>A basic line chart</h1>
+
+    <canvas id="cvs" width="600" height="250">[No canvas support]</canvas>
+    
+    <script>
+        window.onload = function ()
+        {
+            var line = new RGraph.Line('cvs', [5,4,1,6,8,5,3])
+                .Set('labels', ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'])
+                .Draw();
+        }
+    </script>
+
+    <p>
+        <a href="./">&laquo; Back</a>
+
+    </p>
+
+</body>
+</html>
